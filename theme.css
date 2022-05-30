@@ -1,0 +1,8 @@
+.topnav a{padding: 25px; color: white; font-size: 18px; text-decoration: none;}
+.topnav a:hover{background-color: white; color: #030303; }
+body{margin: 0; background: url("Wiki-background.webp"); font-family: comic sans ms;}
+.topnav {background-color: #030303;  padding-top: 20px; padding-bottom: 20px; position: sticky;}
+.currentpage {background-color: #99ff55;}
+p{font-size: 22px; font-family: comic sans ms; text-align: center;}
+.highlightdiv {background-color: #03030333; width: 30%; margin: auto; border-radius: 10%;}
+img{border-radius: 50%;}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Signup Form</title>
+	<link rel="stylesheet" type="text/css" href="theme.css">
+</head>
+<body text="#ffffff">
+	<div class="topnav">
+		<a href="index.html">Home</a>
+		<a href="about_us.html">About us</a>
+		<a href="contact_us.html">Contact us</a>
+		<div style="float: right;">
+			<a href="index.html" >Login</a>
+			<a href="signup.html" class="currentpage">Signup now!</a>
+		</div>
+	</div>
+	<div class="highlightdiv" style="width: 50%">
+		<br>
+			<h2 align="center"><u>Create a new account now. It is free and always will be.</u></h2>
+			<br>
+			<font color="#030303">
+				<h3 align="center">Complete registration by enterring the following details.</h3>
+			</font>
+			<br>
+		<form style="padding-left: 200px" action="index.html" >
+			First Name:<font color="#ff0000">*</font> <input type="text" name="fname" placeholder="First Name" required>
+			<br><br>
+			Last Name: <input type="text" name="lname" placeholder="Last Name">
+			<br><br>
+			Date of Birth:<font color="#ff0000">*</font> <input type="Date" required name="dob" placeholder="D.O.B.">
+			<br><br>
+			<label for="gender" style="padding-right: 40px">Select Gender: </label>
+			<font color="#030303">
+				Male: <input type="radio" name="gender" value="Male" checked>
+				Female: <input type="radio" name="gender" value="Female">
+			</font>
+			<br><br>
+			Occupation:<font color="#ff0000">*</font> <input type="text" required name="Occupation" placeholder="About Job">
+			<br><br>
+			Email:<font color="#ff0000">*</font> <input type="Email" name="email" required placeholder="Email address">
+			<br><br>
+			Country/region:<font color="#ff0000">*</font> <input type="text" name="region" required placeholder="Country">
+			<br><br>
+			Upload profile picture: <input type="file" name="profilepic">
+			<br><br>
+			<input type="checkbox" name="terms" value="terms&conditions" required><font color="#ff0000">*</font> You have read our terms and condition.
+			<br><br>
+			<input type="checkbox" name="news" value="news" checked> Receive future news and announcements from quizonline.
+			<br><br>
+			<span style="padding: 90px">
+				<input type="reset" name="reset" style="background: red; padding: 15px; color: #ffffff">
+				<input type="submit" name="submit" value="Create Account" style="background-color: green; padding: 15px; color: #ffffff">
+			</span>
+			<br><br>
+		</form>
+	</div>
+	<p align="center">Feel free to contact us on <a href="mailto:pratham9897521595@gmail.com">email</a> for any help.</p>
+</body>
+</html>
